@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://api.shazlanihtisham.com/api/v1/auth';
