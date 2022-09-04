@@ -17,7 +17,6 @@ const HomeScreen = () => {
         <View style={styles.container}>
             <Spinner visible={isLoading} />
             <Text style={styles.welcome}>Welcome to Homepage</Text>
-            {projects.map(project => <Text>{project.client}</Text>)}
             <Button title="Logout" color="red" onPress={logout} />
         </View>
     );
